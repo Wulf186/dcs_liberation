@@ -29,17 +29,16 @@
       "preLaunchTask": "Prepare Environment"
     },
     {
-      "name": "Node: Development Server",
-      "type": "node",
+      "name": "Python: Make Release venv",
+      "type": "python",
       "request": "launch",
-      "cwd": "${workspaceRoot}\\client",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": [
-          "run", "start"
-      ],
+      "python": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "program": "${workspaceFolder}\\resources\\tools\\mkrelease.py",
+      "console": "integratedTerminal",
       "env": {
-        "BROWSER": "none"
+        "PYTHONPATH": ".;./pydcs"
       },
+      "preLaunchTask": "Prepare Environment"
     },
     {
       "name": "Python: Make Release",

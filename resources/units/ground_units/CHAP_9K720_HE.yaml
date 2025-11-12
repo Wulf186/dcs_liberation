@@ -1,0 +1,13 @@
+class: Artillery
+description: The 9K720 Iskander-M is a Russian road-mobile short-range ballistic
+  missile system that fires the 9M723 series missiles, delivering high explosive
+  warheads with precision guidance against high-value targets deep behind the front
+  line.
+introduced: 2006
+manufacturer: KB Mashinostroyeniya
+origin: Russia
+price: 70
+role: Tactical Ballistic Missile Launcher
+variants:
+  9K720 Iskander-M (HE): {}
+hit_points: 4

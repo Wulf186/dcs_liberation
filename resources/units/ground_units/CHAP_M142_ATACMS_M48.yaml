@@ -1,0 +1,12 @@
+class: Artillery
+description: The M142 High Mobility Artillery Rocket System (HIMARS) pairs a single
+  six-wheel FMTV chassis with the same launcher pod used by the tracked M270, allowing
+  rapid shoot-and-scoot employment of long-range rockets and MGM-140 ATACMS missiles.
+introduced: 2005
+manufacturer: Lockheed Martin
+origin: USA
+price: 60
+role: Tactical Ballistic Missile Launcher
+variants:
+  MLRS M142 HIMARS ATACMS HE [CH]: {}
+hit_points: 3
